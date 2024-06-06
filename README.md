@@ -18,16 +18,16 @@
 <tr>
 <td>01</td>
 <td>Intro & Setup</td>
-<td><a href="#">Click Here</a></td>
+<td><a href="#">Get Task</a></td>
 <td><a href="#">Get Source</a></td>
-<td><a href="#">Get Demo</a></td>
+<td><a href="./Task/00_Task/index.html">Get Demo</a></td>
 </tr>
 <tr>
 <td>02</td>
 <td>HTML</td>
-<td><a href="#">Click Here</a></td>
+<td><a href="#">Get Task</a></td>
 <td><a href="#">Get Source</a></td>
-<td><a href="#">Get Demo</a></td>
+<td><a href="./Task/01_Task/index.html">Get Demo</a></td>
 </tr>
 </tbody>
 
@@ -47,16 +47,16 @@
 <tr>
 <td>01</td>
 <td>Intro & Setup</td>
-<td><a href="#">Click Here</a></td>
+<td><a href="#">Get Task</a></td>
 <td><a href="#">Get Source</a></td>
-<td><a href="#">Get Demo</a></td>
+<td><a href="./Task/00_Task/index.html">Get Demo</a></td>
 </tr>
 <tr>
 <td>02</td>
 <td>HTML</td>
-<td><a href="#">Click Here</a></td>
+<td><a href="#">Get Task</a></td>
 <td><a href="#">Get Source</a></td>
-<td><a href="#">Get Demo</a></td>
+<td><a href="./Task/01_Task/index.html">Get Demo</a></td>
 </tr>
 </tbody>
 
