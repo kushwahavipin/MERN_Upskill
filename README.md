@@ -5,30 +5,31 @@
 
 <H1>MERN Task And Challange</H1>
 
-<table><caption>Phone numbers</caption>
+<table><caption>Task</caption>
 <thead>
 <tr>
-<th>Name</th>
-<th colspan="2">Phone</th>
+<th>Sr. No.</th>
+<th>Task Name</th>
+<th>Task Link</th>
+<th colspan="2">Source Code || Demo</th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td>John</td>
-<td>577854</td>
-<td>577855</td>
+<td>01</td>
+<td>Intro & Setup</td>
+<td><a href="#">Click Here</a></td>
+<td><a href="#">Get Source</a></td>
+<td><a href="#">Get Demo</a></td>
 </tr>
 <tr>
-<td>Jack</td>
-<td>577856</td>
-<td>577857</td>
+<td>02</td>
+<td>HTML</td>
+<td><a href="#">Click Here</a></td>
+<td><a href="#">Get Source</a></td>
+<td><a href="#">Get Demo</a></td>
 </tr>
+
 </tbody>
-<tfoot>
-<tr>
-<td>&nbsp;</td>
-<td>Personal</td>
-<td>Office</td>
-</tr>
-</tfoot>
+
 </table>
