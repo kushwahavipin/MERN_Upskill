@@ -1,11 +1,16 @@
-import React from 'react';
+import React from "react";
 
-const Cart = () => {
+const Cart = ({ cartItem, setcartItem }) => {
   return (
     <>
-      <h2>Cart</h2>
+      {cartItem.length === 0 && (
+        <>
+          <h2>Cart is Empty Please Select a Product</h2>
+          <button>Shopping</button>
+        </>
+      )}
     </>
   );
-}
+};
 
 export default Cart;

@@ -2,12 +2,12 @@ import React from 'react';
 import { Routes, Route } from 'react-router-dom';
 import Product from './Product';
 import Cart from './Cart';
-const Rout = () => {
+const Rout = ({addtoCart,cartItem,setcartItem}) => {
   return (
     <>
       <Routes>
         <Route path='/'element={<Product/>}/>
-        <Route path='/Cart'element={<Cart/>}/>
+        <Route path='/Cart'element={<Cart addtoCart={addtoCart} cartItem={cartItem} setcartItem={setcartItem}/>}/>
       </Routes>
     </>
   );

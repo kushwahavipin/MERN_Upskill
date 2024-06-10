@@ -3,7 +3,7 @@ import Detail from "./ProdcutDetails";
 import Button from "react-bootstrap/Button";
 import Card from "react-bootstrap/Card";
 
-const Product = () => {
+const Product = ({addtoCart}) => {
   return (
     <>
       <div className="d-flex gap-4">
@@ -21,7 +21,7 @@ const Product = () => {
                 <Card.Text>
                   Rs.{curElm.price}
                 </Card.Text>
-                <Button variant="primary">Add To Cart</Button>
+                <Button variant="primary" onClick={()=>addtoCart(curElm)}>Add To Cart</Button>
               </Card.Body>
             </Card>
             
