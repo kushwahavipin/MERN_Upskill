@@ -6,7 +6,7 @@ const Rout = ({addtoCart,cartItem,setcartItem}) => {
   return (
     <>
       <Routes>
-        <Route path='/'element={<Product/>}/>
+        <Route path='/'element={<Product addtoCart={addtoCart}/>}/>
         <Route path='/Cart'element={<Cart addtoCart={addtoCart} cartItem={cartItem} setcartItem={setcartItem}/>}/>
       </Routes>
     </>
