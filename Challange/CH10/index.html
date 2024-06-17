@@ -1,48 +1,67 @@
 <!DOCTYPE html>
-<html lang="en" >
-<head>
-  <meta charset="UTF-8">
-  <title>CodePen - Scrolling Page With SVG Text Mask</title>
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
-<link rel="stylesheet" href="./style.css">
-
-</head>
-<body>
-<!-- partial:index.partial.html -->
-<!-- This is a recreation of Unfold's (https://dribbble.com/unfold) parallax scene: https://cdn.dribbble.com/users/14268/screenshots/3275340/northface.gif -->
-<div class="scrollDist"></div>
-<div class="main">
-  <svg viewBox="0 0 1200 800" xmlns="http://www.w3.org/2000/svg">
-    <mask id="m">
-      <g class="cloud1">
-        <rect fill="#fff" width="100%" height="801" y="799" />
-        <image xlink:href="https://assets.codepen.io/721952/cloud1Mask.jpg" width="1200" height="800"/>
-      </g>
-    </mask>
-    
-    <image class="sky" xlink:href="https://assets.codepen.io/721952/sky.jpg"  width="1200" height="590" />
-    <image class="mountBg" xlink:href="https://assets.codepen.io/721952/mountBg.png" width="1200" height="800"/>    
-    <image class="mountMg" xlink:href="https://assets.codepen.io/721952/mountMg.png" width="1200" height="800"/>    
-    <image class="cloud2" xlink:href="https://assets.codepen.io/721952/cloud2.png" width="1200" height="800"/>    
-    <image class="mountFg" xlink:href="https://assets.codepen.io/721952/mountFg.png" width="1200" height="800"/>
-    <image class="cloud1" xlink:href="https://assets.codepen.io/721952/cloud1.png" width="1200" height="800"/>
-    <image class="cloud3" xlink:href="https://assets.codepen.io/721952/cloud3.png" width="1200" height="800"/>
-    <text fill="#fff" x="350" y="200">EXPLORE</text>
-    <polyline class="arrow" fill="#fff" points="599,250 599,289 590,279 590,282 600,292 610,282 610,279 601,289 601,250" />
-    
-    <g mask="url(#m)">
-      <rect fill="#fff" width="100%" height="100%" />      
-      <text x="350" y="200" fill="#162a43">FURTHER</text>
-    </g>
-    
-    <rect id="arrowBtn" width="100" height="100" opacity="0" x="550" y="220" style="cursor:pointer"/>
-  </svg>
-</div>
-<!-- partial -->
-  <script src='https://cdnjs.cloudflare.com/ajax/libs/zepto/1.2.0/zepto.min.js'></script>
-<script src='https://unpkg.co/gsap@3/dist/gsap.min.js'></script>
-<script src='https://unpkg.com/gsap@3/dist/ScrollTrigger.min.js'></script>
-<script src='https://unpkg.com/gsap@3/dist/ScrollToPlugin.min.js'></script><script  src="./script.js"></script>
-
-</body>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Slidein</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <nav>
+      <a href="#">Home</a>
+      <a href="#about">About</a>
+      <a href="#contact">Contact</a>
+      <a href="#services">services</a>
+      <a href="#">user</a>
+    </nav>
+    <main>
+      <img src="./images/home.jpg" alt="" srcset="" />
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque sint
+        libero iusto eaque voluptatibus placeat alias itaque nostrum nesciunt?
+        Officiis facere dolorum ipsum enim debitis ducimus consectetur dolores
+        quae atque. Recusandae ipsa minus, libero inventore deserunt magnam?
+        Maxime similique commodi doloribus earum suscipit quam error, quo quasi,
+        cumque animi quia qui, dolore nulla ratione ipsum ipsam deserunt ab modi
+        laboriosam?
+      </p>
+    </main>
+    <section id="about">
+      <img src="./images/about.jpg" alt="image" />
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum rem
+        voluptatum ea repellendus quam quo! Magnam officiis, sed quis voluptas
+        velit a tempore facere aliquam ipsa nostrum nemo vero eos. Repellat
+        nostrum veritatis quod adipisci rem dolorem incidunt error temporibus
+        cupiditate molestiae beatae nemo nam, neque exercitationem quam
+        necessitatibus tempore cumque nulla quasi suscipit quae consectetur. Quo
+        minima perspiciatis nihil.
+      </p>
+    </section>
+    <section id="contact">
+      <img src="./images/contact.jpg" alt="image" />
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta
+        distinctio fugit voluptatibus modi! Reprehenderit earum, quaerat
+        voluptas recusandae aliquam, iure quibusdam asperiores iste harum quo
+        nemo delectus ipsa nulla facere. Tenetur, veniam? Ipsa accusamus velit
+        nobis earum mollitia quasi quas asperiores impedit libero, similique
+        sint iste animi officiis corporis, dolore ratione, iusto neque
+        distinctio eaque recusandae rem. Eius, impedit provident!
+      </p>
+    </section>
+    <section id="services">
+      <img src="./images/services.jpg" alt="image" />
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur
+        officiis dolorem, autem, consequatur ratione delectus repellat illo
+        cumque quis accusamus quibusdam non labore voluptatibus nobis aperiam.
+        Accusantium dolore culpa voluptas. Veritatis quasi eligendi natus at
+        illo? Repellat voluptate perferendis aperiam sapiente provident, cum id
+        unde dicta sed ullam beatae iste quae obcaecati eveniet! Nihil, sequi
+        rem? Temporibus porro minus neque?
+      </p>
+    </section>
+    <script src="script.js"></script>
+  </body>
 </html>
