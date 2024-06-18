@@ -12,7 +12,7 @@ import img7 from "./img/shoes.png"
 const MainPage = () => {
   return (
     <>
-      <h1 className='heading'>All cards are here</h1>
+      <h1 className='heading'>All Cards are here</h1>
       <div className='cardComp'>
       <Card title="0" img={img}/>
       <Card title="1" img={img1}/>
