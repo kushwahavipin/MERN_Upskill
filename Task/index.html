@@ -44,38 +44,136 @@
           id: "00",
           name: "Intro & Setup",
           task: "#",
-          demo: "./Task/00_Task/index.html",
+          demo: "./00_Task/index.html",
         },
         {
           id: "01",
           name: "HTML",
           task: "#",
-          demo: "./Task/01_Task/index.html",
+          demo: "./01_Task/index.html",
         },
         {
           id: "02",
           name: "CSS: Intro, Selectors, Colors",
           task: "#",
-          demo: "./Task/02_Task/index.html",
+          demo: "./02_Task/index.html",
         },
         {
           id: "03",
           name: "CSS: Units, Box Model, Fonts",
           task: "#",
-          demo: "./Task/03_Task/index.html",
+          demo: "./03_Task/index.html",
         },
         {
           id: "04",
           name: "CSS: Display, Postion, Float",
           task: "#",
-          demo: "./Task/04_Task/index.html",
+          demo: "./04_Task/index.html",
         },
         {
           id: "05",
           name: "CSS: FlexBox",
           task: "#",
-          demo: "./Task/05_Task/index.html",
+          demo: "./05_Task/index.html",
         },
+
+        {
+          id: "06",
+          name: "CSS: Media Query, Variables",
+          task: "#",
+          demo: "./06_Task/index.html",
+        },
+        {
+          id: "07",
+          name: "CSS: Pseudo Elements",
+          task: "#",
+          demo: "./07_Task/index.html",
+        },
+        {
+          id: "08",
+          name: "CSS: Transforms",
+          task: "#",
+          demo: "./08_Task/index.html",
+        },
+        {
+          id: "09",
+          name: "CSS: Animations",
+          task: "#",
+          demo: "./09_Task/index.html",
+        },
+        {
+          id: "10",
+          name: "JS: Intro, Data Types, Operators",
+          task: "#",
+          demo: "./10_Task/index.html",
+        },
+        {
+          id: "11",
+          name: "JS: If Else & Switch",
+          task: "#",
+          demo: "./11_Task/index.html",
+        },
+        {
+          id: "12",
+          name: "JS: Loops",
+          task: "#",
+          demo: "./12_Task/index.html",
+        },
+        {
+          id: "13",
+          name: "JS: Arrays & Functions",
+          task: "#",
+          demo: "./13_Task/index.html",
+        },
+        {
+          id: "14",
+          name: "JS: Callback hells & Promises",
+          task: "#",
+          demo: "./14_Task/index.html",
+        },
+        {
+          id: "15",
+          name: "JS: DOM & Event Handling",
+          task: "#",
+          demo: "./15_Task/index.html",
+        },
+        {
+          id: "16",
+          name: "JS: Map & Filter",
+          task: "#",
+          demo: "./16_Task/index.html",
+        },
+        {
+          id: "17",
+          name: "JS: DOM Project",
+          task: "#",
+          demo: "./17_Task/index.html",
+        },
+        {
+          id: "18",
+          name: "Pre-Requisites for React",
+          task: "#",
+          demo: "#",
+        },
+        {
+          id: "19",
+          name: "React Intro",
+          task: "#",
+          demo: "#",
+        },
+        {
+          id: "20",
+          name: "React Hooks",
+          task: "#",
+          demo: "#",
+        },
+        {
+          id: "21",
+          name: "React Props",
+          task: "#",
+          demo: "#",
+        },
+
         
       ];
 
@@ -100,7 +198,7 @@
               <tr > 
                 <td>${curarray[i].id}</td> 
                 <td>${curarray[i].name}</td> 
-                <td><a href="${curarray[i].task}">Get COde</a></td>
+                <td><a href="${curarray[i].task}">Get Code</a></td>
                 <td><a href="${curarray[i].demo}">Get Demo</a></td>
                 </tr>
                 `;
@@ -118,15 +216,14 @@
         newarray = array.filter(function (val) {
           if (
             val.id.includes(search) ||
-            val.name.includes(search) ||
-            val.task.includes(search) ||
-            val.demo.includes(search)
+            val.name.includes(search)||
+            console.log(search)
+           
           ) {
             var newobj = {
               id: val.id,
               name: val.name,
-              task: val.task,
-              demo: val.demo,
+             
             };
             return newobj;
           }
