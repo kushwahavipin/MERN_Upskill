@@ -5,23 +5,17 @@
 
 <H1>MERN Task And Challange</H1>
 
-<table><H3>Task</H3>
-<thead>
-<tr>
-<th>Sr. No.</th>
-<th>Task Name</th>
-<th>Task Link</th>
-<th colspan="2">Source Code & Demo</th>
-</tr>
-</thead>
+<table>
+
 <tbody>
 <tr>
 <td>01</td>
-<td>Intro & Setup</td>
-<td><a href="#">Get Task</a></td>
-<td><a href="./Task/00_Task/index.html">Get Source</a></td>
-<td><a href="https://66100fc5ca700300a13cc78a--spectacular-croissant-e06dc7.netlify.app/">Get Demo</a></td>
+<td>MERN Task</td>
+<td><a href="./index.html">Get Task List</a></td>
+
 </tr>
+
+
 <tr>
 <td>02</td>
 <td>HTML</td>
