@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>MERN Task And Challages</title>
+    <title>MERN Task</title>
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
       rel="stylesheet"
@@ -12,7 +12,9 @@
   <body>
     <div
       class="container mt-5 pb-5 pt-5"
-      style="background-color: rgb(217, 235, 250); border-radius: 20px">
+      style="background-color: rgb(217, 235, 250); border-radius: 20px"
+    >
+      <h2 style="text-align: center">MERN Task</h2>
       <div class="row">
         <div class="offset-md-3 col-md-6">
           <input
@@ -37,139 +39,139 @@
     </div>
 
     <script>
-      var array = [
+      const arrays = [
         {
-          id: "00",
+          id: "0",
           name: "Intro & Setup",
-
-          Demo: "./00_Task/index.html",
+          task: "#",
+          demo: "./00_Task/index.html",
         },
         {
-          id: "01",
+          id: "1",
           name: "HTML",
-
-          Demo: "./01_Task/index.html",
+          task: "#",
+          demo: "./01_Task/index.html",
         },
         {
-          id: "02",
+          id: "2",
           name: "CSS: Intro, Selectors, Colors",
-
-          Demo: "./02_Task/index.html",
+          task: "#",
+          demo: "./02_Task/index.html",
         },
         {
-          id: "03",
+          id: "3",
           name: "CSS: Units, Box Model, Fonts",
-
-          Demo: "./03_Task/index.html",
+          task: "#",
+          demo: "./03_Task/index.html",
         },
         {
-          id: "04",
+          id: "4",
           name: "CSS: Display, Postion, Float",
-
-          Demo: "./04_Task/index.html",
+          task: "#",
+          demo: "./04_Task/index.html",
         },
         {
-          id: "05",
+          id: "5",
           name: "CSS: FlexBox",
-
-          Demo: "./05_Task/index.html",
+          task: "#",
+          demo: "./05_Task/index.html",
         },
 
         {
-          id: "06",
+          id: "6",
           name: "CSS: Media Query, Variables",
-
-          Demo: "./06_Task/index.html",
+          task: "#",
+          demo: "./06_Task/index.html",
         },
         {
-          id: "07",
+          id: "7",
           name: "CSS: Pseudo Elements",
-
-          Demo: "./07_Task/index.html",
+          task: "#",
+          demo: "./07_Task/index.html",
         },
         {
-          id: "08",
+          id: "8",
           name: "CSS: Transforms",
-
-          Demo: "./08_Task/index.html",
+          task: "#",
+          demo: "./08_Task/index.html",
         },
         {
-          id: "09",
+          id: "9",
           name: "CSS: Animations",
-
-          Demo: "./09_Task/index.html",
+          task: "#",
+          demo: "./09_Task/index.html",
         },
         {
           id: "10",
           name: "JS: Intro, Data Types, Operators",
-
-          Demo: "./10_Task/index.html",
+          task: "#",
+          demo: "./10_Task/index.html",
         },
         {
           id: "11",
           name: "JS: If Else & Switch",
-
-          Demo: "./11_Task/index.html",
+          task: "#",
+          demo: "./11_Task/index.html",
         },
         {
           id: "12",
           name: "JS: Loops",
-
-          Demo: "./12_Task/index.html",
+          task: "#",
+          demo: "./12_Task/index.html",
         },
         {
           id: "13",
           name: "JS: Arrays & Functions",
-
-          Demo: "./13_Task/index.html",
+          task: "#",
+          demo: "./13_Task/index.html",
         },
         {
           id: "14",
           name: "JS: Callback hells & Promises",
-
-          Demo: "./14_Task/index.html",
+          task: "#",
+          demo: "./14_Task/index.html",
         },
         {
           id: "15",
           name: "JS: DOM & Event Handling",
-
-          Demo: "./15_Task/index.html",
+          task: "#",
+          demo: "./15_Task/index.html",
         },
         {
           id: "16",
           name: "JS: Map & Filter",
-
-          Demo: "./16_Task/index.html",
+          task: "#",
+          demo: "./16_Task/index.html",
         },
         {
           id: "17",
           name: "JS: DOM Project",
-
-          Demo: "./17_Task/index.html",
+          task: "#",
+          demo: "./17_Task/index.html",
         },
         {
           id: "18",
           name: "Pre-Requisites for React",
-
-          Demo: "#",
+          task: "#",
+          demo: "#",
         },
         {
           id: "19",
           name: "React Intro",
-
-          Demo: "#",
+          task: "#",
+          demo: "#",
         },
         {
           id: "20",
           name: "React Hooks",
-
-          Demo: "#",
+          task: "#",
+          demo: "#",
         },
         {
           id: "21",
           name: "React Props",
-
-          Demo: "#",
+          task: "#",
+          demo: "#",
         },
       ];
 
@@ -178,7 +180,8 @@
     <tr class="bg-primary text-white fw-bold">
                 <td>ID</td>
                 <td>Name</td>
-                                <td>Demo</td>
+                <td>Source Code</td>
+                <td>Demo</td>
             </tr> `;
 
         if (curarray == "") {
@@ -190,28 +193,26 @@
 
           for (var i = 0; i < curarray.length; i++) {
             document.getElementById("mytable").innerHTML += ` 
-              <tr > <td>${curarray[i].id}</td> 
-              <td>${curarray[i].name}</td> 
-                            <td><a href="${curarray[i].Demo}">Get Demo</a></td>`;
+              <tr > 
+                <td>${curarray[i].id}</td> 
+                <td>${curarray[i].name}</td> 
+                <td><a href="${curarray[i].task}">Get Code</a></td>
+                <td><a href="${curarray[i].demo}">Get Demo</a></td>
+                </tr>
+                `;
           }
         }
       }
 
-      showtable(array);
+      showtable(arrays);
 
-      var newarray = [];
+      document.getElementById("search").addEventListener("keyup", function (e) {
+        let search = String(e.target.value).toLowerCase();
 
-      document.getElementById("search").addEventListener("keyup", function () {
-        var search = this.value.toLowerCase();
-
-        newarray = array.filter(function (val) {
-          if (val.id.includes(search) || val.name.includes(search)) {
-            var newobj = {
-              id: val.id,
-              name: val.name,
-            };
-            return newobj;
-          }
+        const newarray = arrays.filter((array) => {
+          return (
+            array.id === search || array.name.toLowerCase().includes(search)
+          );
         });
 
         showtable(newarray);
@@ -219,4 +220,3 @@
     </script>
   </body>
 </html>
-]
