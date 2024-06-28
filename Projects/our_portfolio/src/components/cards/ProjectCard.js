@@ -110,9 +110,9 @@ const ProjectCard = ({ project }) => {
           <Avatar src={member.img} />
         ))}
       </Members>
-      <Button href={project.github} target="_blank">
+      {/* <Button href={project.github} target="_blank">
         View Code
-      </Button>
+      </Button> */}
     </Card>
   );
 };
