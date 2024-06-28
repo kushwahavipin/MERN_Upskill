@@ -115,7 +115,7 @@ const Span = styled.div`
 `;
 
 const SubTitle = styled.div`
-  font-size: 20px;
+  font-size: 14px;
   line-height: 32px;
   margin-bottom: 42px;
   color: ${({ theme }) => theme.text_primary + 95};
@@ -125,7 +125,7 @@ const SubTitle = styled.div`
   }
 
   @media (max-width: 960px) {
-    font-size: 16px;
+    font-size: 14px;
     line-height: 32px;
   }
 `;
@@ -256,7 +256,7 @@ const Hero = () => {
             <HeroRightContainer>
               <motion.div {...headContentAnimation}>
                 <Tilt>
-                  <Img src={HeroImg} alt="Rishav Chanda" />
+                  <Img src={HeroImg} alt="Vipin Kushwaha" />
                 </Tilt>
               </motion.div>
             </HeroRightContainer>
