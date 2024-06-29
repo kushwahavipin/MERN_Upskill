@@ -297,15 +297,7 @@ export const experiences = [
     company: "Codeyme Technologies Pvt. Ltd.",
     date: "Feb 2021 - Jun 2022",
     desc: "An Android developer is responsible for designing, developing, testing, and maintaining applications for devices running the Android operating system. They typically work with Java or Kotlin programming languages, along with various development tools and frameworks like Android Studio and Android SDK.",
-    skills: [
-      "Android",
-      "Java",
-      "Kotlin",
-      "XML",
-      "Cloud Firestore",
-      "Firebase",
-      "Figma",
-    ],
+    skills: ["Android", "Java", "Kotlin", "XML", "Firebase", "Figma"],
     doc: "",
   },
   {
@@ -326,8 +318,6 @@ export const experiences = [
     ],
     doc: "",
   },
-  
-
 ];
 
 export const education = [
@@ -343,7 +333,8 @@ export const education = [
   {
     id: 1,
     img: "https://images.moneycontrol.com/static-hindinews/2024/04/UPBoard.jpg?impolicy=website&width=1200&height=900",
-    school: "MSDIC Jairam Kauriya Deoria Utter Pradesh Madhyamik Shiksha Parishad",
+    school:
+      "MSDIC Jairam Kauriya Deoria Utter Pradesh Madhyamik Shiksha Parishad",
     date: "Apr 2015 - Apr 2017",
     grade: "69.93%",
     desc: "I completed my class 12 high school education at MSDIC Jairam Kauriya Deoria Utter Pradesh Madhyamik Shiksha Parishad, where I studied Science with Maths.",
@@ -352,7 +343,8 @@ export const education = [
   {
     id: 2,
     img: "https://images.moneycontrol.com/static-hindinews/2024/04/UPBoard.jpg?impolicy=website&width=1200&height=900",
-    school: "MSDIC Jairam Kauriya Deoria Utter Pradesh Madhyamik Shiksha Parishad",
+    school:
+      "MSDIC Jairam Kauriya Deoria Utter Pradesh Madhyamik Shiksha Parishad",
     date: "Apr 2014 - Apr 2015",
     grade: "76.8%",
     desc: "I completed my class 10 education at MSDIC Jairam Kauriya Deoria Utter Pradesh Madhyamik Shiksha Parishad, where I studied Science with Maths.",
