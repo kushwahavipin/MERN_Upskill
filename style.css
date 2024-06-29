@@ -108,14 +108,16 @@ nav.active .icon .line2 {
 /* card item  */
 
 .parent {
-  width: 300px;
+  width: 100%;
   padding: 20px;
   perspective: 1000px;
-  
+  display: flex;
+    gap: 10px;
 }
 
 
 .card {
+ 
     padding-top: 50px;
   /* border-radius: 10px; */
   border: 3px solid rgb(255, 255, 255);
